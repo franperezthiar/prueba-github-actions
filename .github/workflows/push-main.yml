@@ -1,0 +1,11 @@
+name: GitHub Actions Push
+on: push
+
+jobs:
+  Job-Push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action 1
+        run: echo "Action 1 Push"
+      - name: Action 2
+        run: echo "Action 2 Push"
